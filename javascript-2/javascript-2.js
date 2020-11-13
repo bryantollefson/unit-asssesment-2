@@ -35,7 +35,8 @@ let foods = [
   and then adding the results together. 
 */
 
-//CODE HERE
+
+
 
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
@@ -80,7 +81,7 @@ const products = [
   Save the copy to a new variable called 'saleProducts'.
 */
 
-//CODE HERE
+saleProducts = products.map(element => element * 0.25)
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -89,8 +90,9 @@ const products = [
   to a new variable called 'blueProducts'. 
   (Hint: look up the array method 'includes' on MDN)
 */
+blueProducts = saleProducts.filter(element => element === "blue")
+  
 
-//CODE HERE
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -99,7 +101,7 @@ const products = [
   Save the result to a variable called orderTotal.
 */
 
-//CODE HERE
+
 
 //////////////////////////////////PROBLEMS 5-8//////////////////////////////////
 /*
@@ -129,7 +131,7 @@ const shippingInfo = {
   that combines the contactInfo and shippingInfo objects.
 */
 
-//CODE HERE
+const hellensInfo = Object.assign(contactInfo, shippingInfo)
 
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -138,7 +140,7 @@ const shippingInfo = {
   Overwrite the name property to 'Ellen' and the email address to 'ellen@email.com'.
 */
 
-//CODE HERE
+
 
 ////////////////////PROBLEM 7////////////////////
 /* 

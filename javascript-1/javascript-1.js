@@ -8,7 +8,7 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
+const myArr = [4, "abc", ['cat', 'dog', 'bird', ], 77];
 
 
 ////////////////////PROBLEM 2////////////////////
@@ -20,7 +20,7 @@
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
+ const foundZ = nestedLetters[5][2][1]
 
 
 ////////////////////PROBLEM 3////////////////////
@@ -36,7 +36,7 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
+let animals = [...forest, ...ocean, ...savannah, ...desert];
 
 
 /*
@@ -44,7 +44,7 @@ const desert = ['rattlesnake', 'coyote']
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-//CODE HERE
+animalsCopy = [...animals, 'elephant'] 
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -55,7 +55,20 @@ const desert = ['rattlesnake', 'coyote']
     If the numbers are the same, just return the number.
 */
 
-//CODE HERE
+// compareNums = (num1, num2) => {
+//     if (num1 > num2) {
+//         return num1 
+//     } else if (num2 > num1) {
+//         return num2 
+//     } else if(num1 = num2) {
+//     return (num2)
+// }
+
+    
+        
+    
+
+
 
   
 ////////////////////PROBLEM 5////////////////////
@@ -67,7 +80,7 @@ const desert = ['rattlesnake', 'coyote']
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+bestMovie = (str) => str + " is the best movie ever!";
   
   
 ////////////////////PROBLEM 6////////////////////
@@ -75,7 +88,7 @@ const desert = ['rattlesnake', 'coyote']
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
+jsNinja = () => "I am a JavaScript ninja!"
   
 
 ////////////////////PROBLEM 7////////////////////
@@ -96,7 +109,7 @@ const desert = ['rattlesnake', 'coyote']
     delete the rating property off of the gameInfo object.
 */
 
-//CODE HERE
+delete gameInfo.rating
   
 
 ////////////////////PROBLEM 8////////////////////
@@ -118,7 +131,12 @@ const desert = ['rattlesnake', 'coyote']
     looping over the shapes object and deleting any property whose value is odd number.
 */
 
-//CODE HERE
+for (const key in shapes) {
+    if (shapes.hasOwnProperty(key)) {
+        const element = shapes[key]
+        if (shapes[key] = % 2 === 0
+    }
+}
   
   
 ////////////////////PROBLEM 9////////////////////
